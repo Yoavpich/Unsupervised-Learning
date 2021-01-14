@@ -1,0 +1,22 @@
+-+-+-+-+-+-+-+-+-+-+-+-
+Find Best Algorithm - Dataset 3 
+Significance level = 5% (Recommended)
+-+-+-+-+-+-+-+-+-+-+-+-
+
+Test #1: K-Means & Fuzzy C Means
+	P-value: 1.0
+	From the P-value above we can infer that K-Means is better than Fuzzy C Means
+
+Test #2: K-Means & Gaussian Mixture Model
+	P-value: 6.271650698869743e-12
+	From the P-value above we can infer that Gaussian Mixture Model is better than K-Means
+
+Test #3: Gaussian Mixture Model & Agglomerative Clustering
+	P-value: 1.0
+	From the P-value above we can infer that Gaussian Mixture Model is better than Agglomerative Clustering
+
+Test #4: Gaussian Mixture Model & Spectral Clustering
+	P-value: 1.0
+	From the P-value above we can infer that Gaussian Mixture Model is better than Spectral Clustering
+
+For conclusion, the best algorithm for the current data (according to the T-test) is Gaussian Mixture Model
